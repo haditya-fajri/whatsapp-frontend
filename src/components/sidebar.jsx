@@ -11,7 +11,9 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebar__header">
-        <Avatar src="https://upload.wikimedia.org/wikipedia/commons/9/99/Jennie_Kim_for_Marie_Claire_Korea_Magazine_on_October_9%2C_2018_%285%29.png" />
+        <div className="sidebar__headerLeft">
+          <Avatar src="https://upload.wikimedia.org/wikipedia/commons/9/99/Jennie_Kim_for_Marie_Claire_Korea_Magazine_on_October_9%2C_2018_%285%29.png" />
+        </div>
         <div className="sidebar__headerRight">
           <IconButton>
             <DonutLargeIcon />
